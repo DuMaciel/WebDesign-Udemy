@@ -1,0 +1,78 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+body{
+    width: 900px;
+    margin: auto;
+    border: 1px solid saddlebrown;
+}
+
+h1{
+    font-family: Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-weight: 900;
+    background-color: chocolate;
+    color: white;
+    transition: color;
+    transition-duration: 0.5s;
+    
+    padding: 10px;
+    border-bottom: 10px dashed saddlebrown;
+    margin: 0;
+    
+}
+h2{
+    font-variant: small-caps;
+    font-weight: 700;
+    margin-left: 10px;
+}
+h3{
+    font-variant: small-caps;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+p{
+    font-weight: 200;
+    text-align: justify;
+    margin: 0 10px;
+}
+li{
+    font-weight: 200;
+}
+img{
+    width: 700px;
+    margin: 25px 100px 0;
+}
+
+hr{
+    border: 0px;
+    
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: saddlebrown;
+
+    
+}
+
+h1:hover {
+    color: saddlebrown;
+    transition: color;
+    transition-duration: 1s;
+}
+
+ul li{
+    list-style: circle;
+}
+
+.fonte{
+    text-align: center;
+}
+
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: saddlebrown;;
+}
