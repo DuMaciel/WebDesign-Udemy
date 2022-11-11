@@ -1,0 +1,39 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+
+body{
+    width: 900px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    background-color: lightgray;
+    border-bottom: 3px solid red;
+    padding: 6px;
+}
+
+h2{
+    background-color: lightgray;
+    border-bottom: 3px solid red;
+    padding: 6px;
+}
+
+p{
+    text-align: justify;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
