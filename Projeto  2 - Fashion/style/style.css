@@ -1,0 +1,147 @@
+*{
+    --blue-black: #0b171f;
+    --grey-light: rgba(240, 240, 240,0.2);
+    font-family: Tahoma , Arial, sans-serif;
+    
+}
+
+body{
+    padding: 5% 10%;
+    margin: auto;
+    
+}
+
+/* Cabechalho da pagina */
+header nav{
+    background-color: var(--blue-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+header nav img{
+    margin-left: 15%;
+}
+
+header nav ul{
+   margin-right: 5%;
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    color: var(--grey-light);
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+header nav ul li a:hover{
+    color: rgba(240, 240, 240,0.5);
+    transition: color 0.5s ease;
+}
+
+header>img{
+    width: 100%;
+}
+/* Fim do cabechalho da pagina */
+
+
+/* Conteudo */
+
+    /* Portifolio */
+main .conteudo #Portfolio{
+    text-align: center;
+    padding: 5% 10%;
+}
+main .conteudo #Portfolio h1{
+    color: rgb(20, 20, 20);
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 35px;
+}
+main .conteudo #Portfolio p{
+    line-height: 2;
+    color: rgb(80, 80, 80);
+    font-weight: 200;
+}
+
+    /* Galeria */
+main .conteudo #Portfolio #Gallery{
+    margin-top: 5%;
+}
+main .conteudo #Portfolio #Gallery .item-galeria{
+    width: 32%;
+    display: inline-block;
+}
+main .conteudo #Portfolio #Gallery .item-galeria:nth-child(2){
+    margin: 0 1.1%;
+}
+main .conteudo #Portfolio #Gallery .item-galeria img{
+    width: 100%;
+}
+main .conteudo #Portfolio #Gallery .item-galeria h3{
+    font-family: serif;
+    color: rgb(80, 80, 80);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+main .conteudo #Portfolio #Gallery .item-galeria p{
+    color: rgb(160, 160, 160);
+    font-weight: 200;
+    margin: 0;
+}
+
+    /* About */
+main .conteudo #About{
+    text-align: left;
+    padding: 10%;
+    background-color: #003d52;
+    background-image: url('../imagens/bg_detalhe.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+main .conteudo #About h2{
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 60px;
+}
+main .conteudo #About p{
+    width: 60%;
+    line-height: 2;
+}
+
+
+    /* Contato */
+main .conteudo #Contact{
+    text-align: center;
+    text-transform: uppercase;
+    color: #003d52;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* Fim conteudo */
+
+
+/* Mapa */
+
+/* Fim mapa */
+
+/* Rodapé */
+footer p{
+    text-align: center;
+    color: var(--grey-light);
+    background-color: var(--blue-black);
+    padding: 25px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+/* Fim rodapé */
