@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex2.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <label for="nome">Digite seu nome:
+            <input type="text" name="nome" id="nome">
+            </label>
+
+            <label for="email">Email:
+            <input type="email" name="email" id="email">
+            </label>
+
+            <label for="cpf">CPF:
+            <input type="text" name="cpf" id="cpf" maxlength="14">
+            </label>
+
+            <label for="d_Nas">Data de nascimento:
+            <input type="date" name="d_Nas" id="d_Nas">
+            </label>
+
+            <label for="estado">Estado:
+            <select name='estado' id="estado">
+                <option value="" disabled selected>Selecione</option>
+                <option value="pr">Paraná</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+            </select>
+            </label>
+
+            <label for="cidade">Cidade
+                <select name='cidade' id="cidade">
+                    <option value="" disabled selected>Selecione</option>
+                </select>
+            </label>
+
+            <input type="submit" id="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
